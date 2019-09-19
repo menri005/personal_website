@@ -7,15 +7,15 @@
 <CENTER>
 <H1><B>martin-enriquez</B></H1></CENTER>
 <PRE>
-NAME
+<B>NAME</B>
 martin-enriquez - a multi-purpose nerd
 
-SYNOPSIS
+<B>SYNOPSIS</B>
 martin-enriquez [--ball] [--hack] [--help]
                 [--play] [--work] [--yum]
 
-DESCRIPTION
-     martin-enriquez is a modular nerd with a passion for hacking,
+<B>DESCRIPTION</B>
+     martin-enriquez is a multi-purpose nerd with a passion for hacking,
      technology, soccer and good food. 
 
      Common uses include:
@@ -29,17 +29,17 @@ DESCRIPTION
      The options are as follows.
 
 OPTIONS SUMMARY
-     --ball[=FUTBOL]
+     --ball <u>futbol</u>
               like --play, but is optimized for futbol
 
-     --hack[=TARGET]
+     --hack <u>target</u>
               please use responsibly and at your own disk, I mean risk;
               more details below
 
-     --help[=WHO]
-              defaults to animals in need. If WHO: `me`, then prints this menu
+     --help <u>someone</u>
+              defaults to animals in need. If "me" is specified, then prints this menu
 
-     --play[=SOMETHING]
+     --play <u>something</u>
               plays something. SOMETHING can, and should be, a sport, video or board 
               game; if SOMETHING: musical instrument, beware of noise-induced 
               hearing loss
@@ -56,9 +56,9 @@ PROFESSIONAL EXPERIENCE
      Over 10 years of experience in information technology and computer security;
      currently an offensive security tester and automation engineer at Mastercard
 
-     Holds a bachelor's degree from Florida International University (go golden 
-     panthers!) in Information Technology, 2009. Currently working on a Master's 
-     degree in Cybersecurity Management from Washington University in St. Louis.
+     Holds a bachelor's degree from Florida International University in Information 
+     Technology, 2009. Currently working on a Master's degree in Cybersecurity 
+     Management from Washington University in St. Louis.
 
      Is also CISSP certified. Might still hold some SANS certs unless the renewal 
      fee expired (but hey, the training is more important, right?)
@@ -66,19 +66,22 @@ PROFESSIONAL EXPERIENCE
      Passionate about almost every aspect of technology; was a system administrator
      and ticket-slayer in past lives. 
 
-     Extensive compatibility with Python, C++, Terraform, Packer and Ansible;
-     as these tools are necessary to support infrastructure automation. 
-     The --work option will output applications in these languages, or 
-     templates of these tools for the purpose of automating processes.
-     It can also build tools to help parse large amounts of data 
-     that usually result from a security assessment.
+     Is compatible with Python, C++, Terraform, Packer and Ansible. These tools are 
+     necessary to support infrastructure automation, which this nerdy app 
+     thoroughly enjoys.
+
+     The --work option will output templates or code using these tools. It can also 
+     build tools to help parse large amounts of data that usually result from 
+     a security assessment.
 
      Also note: at certain times you can pipe the output of the --work option 
      to a problematic server and it'll make its problems go away:
 
            $ martin-enriquez --work | nc host.example.com 22
-           DONE! PROBLEMS SOLVED!
-           EOF
+           SSH-2.0-OpenSSH_7.6p1
+           Protocol mismatch...
+           Just kidding!
+           PROBLEMS SOLVED!
 
 ETHICAL HACKING
      Figuring ways to defeat a security implementation is this nerd's raison
@@ -102,23 +105,25 @@ ETHICAL HACKING
        $ martin-enriquez --hack 192.168.1.1 80
 
        [TRY]: Target is 192.168.1.1 at port 80 - attempting a simple TCP connection.
-       [RESULT]: Host is live. Returned HTTP headers.
-       [TRY]: Attempting to enumerate HTTP server.
-       [RESULT]: Host is running Apache HTTP server 2.4. Holy crud that's old. 
+       [RESULT]: TCP conx is good. Host is live. 
+       [TRY]: Making GET request for "/".
+       [RESULT]: Parsed response headers. 
+                 Host is running Apache HTTP server 2.4. Holy crud that's old. 
                  Do they even patch?
-       [TRY]: Cross referencing known Apache HTTP server 2.4 vulnerabilities.
-       [CONCURRENT TRY]: Reviewing index page source code for weaknesses.
+       [TRY]: Cross referencing known Apache HTTP Server 2.4 vulnerabilities.
+       [CONCURRENT TRY]: Reviewing index page source code for interesting stuff...
        [RESULT]: Parsing results from &lt;https://vulners.com/search?query=apache_2_4_*&gt;
                  and looking for available exploits.
-       [CONCURRENT RESULTS]: Identified a login form which is running over an unencrypted connection. 
-                             This appears to be a router login page.
+       [CONCURRENT RESULTS]: Seems index page is a login form. Over unencrypted HTTP. 
+                              Bruh...
+
        <<<<< QUERY >>>>> 
 
        How to proceed?
 
-              [LOUD] : exploit the HTTP server
-              [STEALTH] : Look into potential MITM attack to take advantage of the 
-                          unencrypted login form
+              [LOUD] : Try to exploit Apache 2.4 
+              [STEALTH] : Drop wireless interface into monitor mode 
+                          and watch for creds sent to this site...
 
        Choice: _
 
@@ -150,13 +155,14 @@ OTHER HOBBIES
      The --ball option is as reliable as a wood-burning stove when futbol
      is passed as a value. A solid defensive midfielder in the g(old)en days, 
      now functions as a full back. Can put some quality through balls if enough
-     (memory) space is available. 
+     (memory) space is available.
      
      If other sports are passed, expect mediocre results.
 
      Might cause high CPU utilization as this is the second most passionate
      and work intensitve activity after ethical hacking.
 
+     Also likes cars. And some TV shows/anime. 
 
 SEE ALSO
      <STRONG><A HREF="https://github.com/menri005">GitHub</A></STRONG>
