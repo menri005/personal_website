@@ -1,178 +1,144 @@
 
+
 <HTML>
-<HEAD>
-<TITLE>man martin-enriquez</TITLE>
-</HEAD>
-<BODY LINK="#0000FF" TEXT="#000000" BGCOLOR="#FFFFFF">
-<CENTER>
-<H1><B>martin-enriquez</B></H1></CENTER>
-<PRE>
-<B>NAME</B>
-martin-enriquez - a multi-purpose nerd
-
-<B>SYNOPSIS</B>
-martin-enriquez [--ball] [--hack] [--help]
-                [--play] [--work] [--yum]
-
-<B>DESCRIPTION</B>
-     martin-enriquez is a multi-purpose nerd with a passion for hacking,
-     technology, soccer and good food. 
-
-     Common uses include:
-
-           o   defending hard in futbol
-           o   hackin' all yer bases
-           o   making lomo saltado and papa a la huancaina
-           o   petting dogs and cats
-	   o   going "wooo" like Ric Flair
-
-<B>OPTIONS SUMMARY</B>
-     --ball <u>futbol</u>
-              like --play, but is optimized for futbol
-
-     --hack <u>target</u>
-              please use responsibly and at your own disk, I mean risk;
-              more details below
-
-     --help <u>someone</u>
-              defaults to animals in need. If "me" is specified, then prints this menu
-
-     --play <u>something</u>
-              plays something. SOMETHING can, and should be, a sport, video or board 
-              game; if SOMETHING: musical instrument, beware of noise-induced 
-              hearing loss
-
-     --work
-              prints professional experience, may also `do` work if the time is right...
-
-     --yum
-              Peruvian food all day; will make drinks depending on locale and 
-              datetime parse
-
-<B>PROFESSIONAL EXPERIENCE</B>
-     Over 10 years of experience in information technology and computer security;
-     currently an offensive security tester and automation engineer at Mastercard.
-
-     Holds a bachelor's degree from Florida International University in Information 
-     Technology (2010) and a graduate certificate in Cybersecurity Management from 
-     Washington University in St. Louis (2021).
-
-     Is also CISSP certified and currently working on getting an OSCP. Has some SANS
-     certs like GCED and GCIH. 
-
-     Passionate about almost every aspect of technology; was a system administrator
-     and ticket-slayer in past lives. 
-
-     Is compatible with Python, C++, Terraform, Packer and Ansible. These tools are 
-     necessary to support infrastructure automation, which this nerdy app 
-     thoroughly enjoys.
-
-     The --work option will output templates or code using these tools. It can also 
-     build tools to help parse large amounts of data that usually result from 
-     a security assessment.
-
-     Also note: at certain times you can pipe the output of the --work option 
-     to a problematic server and it'll make its problems go away:
-
-           $ martin-enriquez --work | nc host.example.com 22
-           SSH-2.0-OpenSSH_7.6p1
-           Protocol mismatch...
-           Just kidding!
-           PROBLEMS SOLVED!
-
-<B>ETHICAL HACKING</B>
-     Figuring ways to defeat a security implementation is this nerd's raison
-     d'etre.
-
-     Always with good intentions in mind, and with the objective to help
-     increase the security of the target under attack, the --hack option 
-     is an evolution of the --debug option.
-
-     There is no magic sauce or super secret skill behind hacking. 
-     This nerd takes his time to break down and oversimplify a process,
-     and then finds ways to abuse or misuse such process. 
-     The definition of `process` is not limited to computer processes or
-     network-connected computers but also human processes.
-
-     A BIG admirer of the folks who are better than. Always gets
-     excited to learn something new.
-
-     An example of the thought process:
-
-       $ martin-enriquez --hack 192.168.1.1 80
-
-       [TRY]: Target is 192.168.1.1 at port 80 - attempting a simple TCP connection.
-       [RESULT]: TCP conx is good. Host is live. 
-       [TRY]: Making GET request for "/".
-       [RESULT]: Parsed response headers. 
-                 Host is running Apache HTTP server 2.2.
-       [TRY]: Checking the index page and subsequently enumerating directories.
-       [CONCURRENT RESULTS]: Seems index page has a login form, and this is plaintext HTTP. Not good.
-                             Also found a common gateway interface (/cgi_bin/admin.cgi)...check for ShellShock?
-
-       <<<<< DECISION TIME >>>>> 
-
-       How to proceed?
-
-              [LOUD] : Try exploiting ShellShock, though it might be noisy...
-
-              [STEALTH] : You are on the same network. Perhaps
-                          drop wireless interface into monitor mode, 
-                          watch for traffic sent to this site and snatch creds...
-
-       Choice: _
-
-<B>WHEN HUNGER CALLS</B>
-     The --yum option yields an invitation to Peruvian food, which is
-     the best in word. Consider lomo saltado, anticuchos, ceviche, chaufa
-     (which is a Peruvian take on fried rice), amongst many other things.
-     This nerd will make it happen!
+     <HEAD>
+     <TITLE>man martin-enriquez</TITLE>
+     </HEAD>
+     <BODY LINK="#0000FF" TEXT="#000000" BGCOLOR="#FFFFFF">
+     <CENTER>
+     <H1><B>martin-enriquez</B></H1></CENTER>
+     <PRE>
+     <B>NAME</B>
+     martin-enriquez - a multi-purpose nerd
      
-     If vegetarian, try papa a la huancaina or choclo con queso. 
+     <B>SYNOPSIS</B>
+     martin-enriquez [--ball] [--hack] [--help]
+                     [--play] [--work] [--yum]
      
-     If vegan, look into locro de zapallo (without cheese) or ceviche de mango
-     which basically replaces the fish pieces with mango. Delicious.
-
-     Depending on the time of day, --yum will throw in a nice Pisco-based drink. 
-
-<B>OTHER HOBBIES</B>
-     The --play option is merely optimized for Metal Gear Solid and FIFA.
-     Unfortunately, lack of motivated developers have made this module
-     get stuck in the past. It is highly recommended to not pass a musical
-     instrument as a value or run the risk of seg faults in the listener&apos;s
-     ear drums.
-
-     When passing pet names to the --play option, expect lots of smooching if 
-     the pet is a cat; except is the cat throws a claw or hiss exception. 
-     If a dog, then expect some patting on the head and maybe salsa dancing
-     if the dog is big enough. If else, awe.
-
-     The --ball option is as reliable as a wood-burning stove when futbol
-     is passed as a value. A solid defensive midfielder in the g[old]en days, 
-     now functions as a full back. Can put some quality through balls if enough
-     (memory) space is available.
+     <B>DESCRIPTION</B>
+          martin-enriquez is a multi-purpose nerd with a passion for hacking,
+          technology, soccer and good food. 
      
-     If other sports are passed, expect mediocre and unpredictable results.
-
-     Might cause high CPU utilization as this is the second most passionate
-     and work intensitve activity after ethical hacking.
-
-     Also likes cars. And some TV shows/anime. 
-
-<B>SEE ALSO</B>
-     <STRONG><A HREF="https://github.com/menri005">GitHub</A></STRONG>
-     <STRONG><A HREF="https://www.linkedin.com/in/menri005/">LinkedIn</A></STRONG>
-     <STRONG><A HREF="./martin_enriquez_cv.pdf">Résumé</A></STRONG>
-
-<B>AUTHORS</B>
-     TuxedoNetcat &lt;<STRONG>menri005@hotmail.com</STRONG>&gt;
-
-<B>CAVEATS</B>
-     LinkedIn invites are accepted if you have contributed with martin-enriquez. 
-     Please excuse the inconvenience. Otherwise feel free to contact the author. 
-
-coreutils               January 2021                           <STRONG>martin-enriquez</STRONG>
-</PRE>
-<CENTER>
-</BODY>
-</HTML>
+          Common uses include:
+     
+                o   defending hard in futbol
+                o   hackin' all yer bases
+                o   making lomo saltado and papa a la huancaina
+                o   petting dogs and cats
+     
+     <B>OPTIONS SUMMARY</B>
+          --ball <u>futbol</u>
+                   like --play, but is optimized for futbol
+     
+          --hack <u>target</u>
+                   please use responsibly and at your own disk, I mean risk;
+                   more details below
+     
+          --help <u>someone</u>
+                   defaults to animals in need. If "me" is specified, then prints this menu
+     
+          --play <u>something</u>
+                   plays something. SOMETHING can, and should be, a sport, video or board 
+                   game; if SOMETHING: musical instrument, beware of noise-induced 
+                   hearing loss
+     
+          --work
+                   prints professional experience, may also `do` work if the time is right...
+     
+          --yum
+                   Peruvian food all day; will make drinks depending on locale and 
+                   datetime parse
+     
+     <B>PROFESSIONAL EXPERIENCE</B>
+          Over 10 years of experience in information technology and computer security;
+          currently an offensive security tester and automation engineer at Mastercard.
+     
+          Holds a bachelor's degree from Florida International University in Information 
+          Technology (2010) and a graduate certificate in Cybersecurity Management from 
+          Washington University in St. Louis (2021). Is OSCP, GWAPT, GCIH and CISSP certified. 
+     
+          Passionate about almost every aspect of technology; was a system administrator
+          and ticket-slayer in past lives. Loves Python and can build cool stuff with it.
+     
+          The --work option will do work-like things, sometimes unpredictable. 
+          Mow the lawn? OK. Write an automated vulnerability scanner? Sure. 
+          Also note: at certain times you can pipe the output of the --work option 
+          to a problematic server and it'll make its problems go away:
+     
+                $ martin-enriquez --work | nc host.example.com 22
+                SSH-2.0-OpenSSH_7.6p1
+                Protocol mismatch...
+                Just kidding!
+                PROBLEMS SOLVED!
+     
+     <B>ETHICAL HACKING</B>
+          Figuring ways to defeat a security implementation is this nerd's raison
+          d'etre.
+     
+          Always with good intentions in mind, and with the objective to help
+          increase the security of the target under attack, the --hack option 
+          is an evolution of the --debug option.
+     
+          There is no magic sauce or super secret skill behind hacking. 
+          This nerd takes his time to break down and oversimplify a process,
+          and then finds ways to abuse or misuse such process. 
+     
+          The definition of `process` is not limited to computer processes or
+          network-connected computers but also human processes.
+     
+          A BIG admirer of the folks who are better than. Always gets
+          excited to learn something new.
+     
+     <B>WHEN HUNGER CALLS</B>
+          The --yum option yields an invitation to Peruvian food, which is
+          the best in word. Consider lomo saltado, anticuchos, ceviche, chaufa
+          (which is a Peruvian take on fried rice), amongst many other things.
+          This nerd will make it happen!
+          
+          If vegetarian, try papa a la huancaina or choclo con queso. 
+          
+          If vegan, look into locro de zapallo (without cheese) or ceviche de mango
+          which basically replaces the fish pieces with mango. Delicious.
+     
+          Depending on the time of day, --yum will throw in a nice Pisco-based drink. 
+     
+     <B>OTHER HOBBIES</B>
+          The --play option is merely optimized for Metal Gear Solid and FIFA.
+          Unfortunately, lack of motivated developers have made this module
+          get stuck in the past. It is highly recommended to not pass a musical
+          instrument as a value or run the risk of seg faults in the listener&apos;s
+          ear drums.
+     
+          When passing pet names to the --play option, expect lots of smooching if 
+          the pet is a cat; except is the cat throws a claw or hiss exception. 
+          If a dog, then expect some patting on the head and maybe salsa dancing
+          if the dog is big enough. If else, awe.
+     
+          The --ball option reliable when futbol is passed as a value. 
+          A solid defensive midfielder in the old days, now functions as a full back. 
+          Can put some quality weighted passes if enough space is available.
+          
+          If other sports are passed, expect mediocre and unpredictable results.
+     
+          Might cause high CPU utilization as this is the second most passionate
+          and work intensitve activity after ethical hacking.
+     
+          Also likes cars. And some TV shows/anime. 
+     
+     <B>SEE ALSO</B>
+          <STRONG><A HREF="https://github.com/menri005">GitHub</A></STRONG>
+          <STRONG><A HREF="https://www.linkedin.com/in/menri005/">LinkedIn</A></STRONG>
+          <STRONG><A HREF="./martin_enriquez_cv.pdf">RÃ©sumÃ©</A></STRONG>
+     
+     <B>AUTHORS</B>
+          TuxedoNetcat &lt;<STRONG>menri005@hotmail.com</STRONG>&gt;
+     
+     <B>CAVEATS</B>
+          Sorry - LinkedIn invites accepted if you have contributed with the author. 
+     
+     coreutils               May 2022                          <STRONG>martin-enriquez</STRONG>
+     </PRE>
+     <CENTER>
+     </BODY>
+     </HTML>
+     
